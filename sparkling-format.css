@@ -1,7 +1,7 @@
 #submit-button {
   background-color: #33CEFF;
-  display: inline-block;
-  padding: 20px;
+  display: none;
+  padding: 40px;
   border-radius: 100%;
 }
 
@@ -17,6 +17,19 @@
   border-radius: 100%;
   margin: 20px;
   text-align: center;
+  display: none;
+}
+
+#messy-code, h1 {
+  display: none;
+}
+
+.supported-langs:hover {
+  background-color: #E0DD74 !important;
+}
+
+#submit-button:hover {
+  background-color: #FAFF8F !important;
 }
 
 #all-langs {
@@ -49,4 +62,9 @@
 
 #c {
   background-color: #3CA2F1;
+}
+
+#pretty-code {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
