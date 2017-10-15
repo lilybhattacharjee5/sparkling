@@ -1,0 +1,52 @@
+#submit-button {
+  background-color: #33CEFF;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.form-body {
+  display: inline-block;
+  vertical-align: top;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.supported-langs {
+  padding: 20px;
+  border-radius: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+#all-langs {
+  padding: 20px;
+}
+
+#python {
+  background-color: #2AB3BE;
+}
+
+#java {
+  background-color: #3399FF;
+}
+
+#javascript {
+  background-color: #2A81BE;
+}
+
+#php {
+  background-color: #2A52BE;
+}
+
+#sql {
+  background-color: #2ABEB0;
+}
+
+#ruby {
+  background-color: #3CDCF1;
+}
+
+#c {
+  background-color: #3CA2F1;
+}
