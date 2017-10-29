@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+
     $("h1").fadeIn(2000);
     $("#messy-code").fadeIn(3000);
     $(".supported-langs").fadeIn(5000);
@@ -13,6 +15,7 @@ $(document).ready(function() {
     })
 
     $(".supported-langs").click(function() {
+      original_color = $(this).css("background-color");
       $(this).css("background-color", "yellow");
     })
 });
